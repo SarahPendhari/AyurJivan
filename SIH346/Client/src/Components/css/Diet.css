@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Samarkan Normal';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../images/font/SAMARO__.woff') format('woff');
+    }
+  /* body {
+    font-family:'Samarkan Normal';font-weight:normal;
+  } */
+  
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto; 
+    height: 80vh;
+}
+
+.submain {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px; 
+}
+.diet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 45%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+}
+.dietimg{
+    width: 40%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+}
+.dietimg img{
+    width: 90%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }
