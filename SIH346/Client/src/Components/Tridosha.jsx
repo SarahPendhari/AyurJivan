@@ -11,7 +11,7 @@ const Tridosha = ({dosha}) => {
     <div className="main" style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
     <div className="head" style={{fontSize:"2rem",marginTop:"14rem"}}>Your Dosha is {dosha}</div>
        <div className="images" style={{width:"35%",height:"60%"}}>
-           {dosha=="vata"&&<img src={vata} alt="" style={{width:"100%",height:"100%"}}/>}
+           {dosha=="Vata"&&<img src={vata} alt="" style={{width:"100%",height:"100%"}}/>}
            {dosha=="pitta"&&<img src={pita} alt="" />}
            {dosha=="Kapha"&&<img src={kapha} alt="" />}
        </div>

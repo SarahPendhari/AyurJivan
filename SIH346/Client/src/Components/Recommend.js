@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import Navbar from './Navbar';    
-import cropgif from './images/cropgif.gif';
-import spinnergif from './images/spinner.gif';
+// import cropgif from './images/cropgif.gif';
+// import spinnergif from './images/spinner.gif';
 import notescontext from "../Components/context/notes/notecontext";
 import hindi from "../Hindi.json";
 import english from "../english.json";
@@ -14,6 +14,8 @@ import Start from './Start';
 import Diet from './Diet';
 import Tridosha from './Tridosha.jsx';
 import Sample from './Sample';
+import Home from './Home';
+import Dosha from './dosha';
 
 const Recommend = () => {
   const [val, setVal] = useState([
@@ -54,7 +56,7 @@ const Recommend = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isdivclick, setisdivclick] = useState(false);
   const [currentval,setcurrentval]=useState([]);
-  const [ans,setans]=useState("start");
+  const [ans,setans]=useState("");
     const [inputValue, setInputValue] = useState(""); // State to store the input value
 
   const handleInputChange = (e) => {
@@ -121,9 +123,11 @@ useEffect(() => {
 
   return (
     <>
-      <div style={{ position: "sticky", top: "0" ,backgroundColor:"transparent"}}>
+      {/* <div style={{ position: "sticky", top: "0" ,backgroundColor:"transparent"}}>
         <Navbar />
-      </div>
+      </div> */}
+      {/* <Home/> */}
+      {/* <Dosha/> */}
       <div className='chathome' style={{height:"80vh",width:"100vw",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
       <div className='homemain'style={{height:"80vh",width:"80%",display:"flex",alignItems:"flex-end",justifyContent:"center"}}>
       {ans=="start"&&<Start/>}

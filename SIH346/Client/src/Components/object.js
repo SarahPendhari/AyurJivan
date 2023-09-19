@@ -139,7 +139,7 @@ export const doshaobj=[
    in:["Ecellent Stamina","Large and soft eyes","Thick hair","Smooth skin","Loyal","pateint","Steady","Supprotive"]  
   },
   {
-    name:"vata",
+    name:"Vata",
     out:["Sleep excesively","Overweight","Suffer from astama","Depression","Diabetes","Stuborness"],
     in:["Ecellent Stamina","Large and soft eyes","Thick hair","Smooth skin","Loyal","pateint","Steady","Supprotive"] 
   }
